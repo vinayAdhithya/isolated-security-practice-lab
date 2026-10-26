@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <rect width="1000" height="560" fill="#f8fafc"/>
+  <text x="500" y="42" font-family="Arial" font-size="26" text-anchor="middle" fill="#0f172a" font-weight="bold">Isolated Security Practice Lab</text>
+  <rect x="55" y="85" width="890" height="410" rx="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="3" stroke-dasharray="10 7"/>
+  <text x="80" y="120" font-family="Arial" font-size="18" fill="#075985" font-weight="bold">Your computer (local only)</text>
+  <rect x="95" y="165" width="300" height="110" rx="12" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="245" y="202" font-family="Arial" font-size="19" text-anchor="middle" fill="#0f172a" font-weight="bold">Browser</text>
+  <text x="245" y="232" font-family="Arial" font-size="16" text-anchor="middle" fill="#334155">http://127.0.0.1:3000</text>
+  <rect x="535" y="150" width="340" height="260" rx="15" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="705" y="184" font-family="Arial" font-size="19" text-anchor="middle" fill="#166534" font-weight="bold">Docker internal network</text>
+  <text x="705" y="210" font-family="Arial" font-size="15" text-anchor="middle" fill="#166534">internal: true</text>
+  <rect x="585" y="245" width="240" height="110" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="705" y="280" font-family="Arial" font-size="18" text-anchor="middle" fill="#0f172a" font-weight="bold">OWASP Juice Shop</text>
+  <text x="705" y="309" font-family="Arial" font-size="15" text-anchor="middle" fill="#334155">Container port 3000</text>
+  <text x="705" y="332" font-family="Arial" font-size="14" text-anchor="middle" fill="#334155">Training target only</text>
+  <path d="M395 220 L520 220 L520 290 L575 290" fill="none" stroke="#0369a1" stroke-width="3"/>
+  <polygon points="575,290 562,283 562,297" fill="#0369a1"/>
+  <text x="455" y="207" font-family="Arial" font-size="13" text-anchor="middle" fill="#075985">Loopback port mapping</text>
+  <rect x="95" y="340" width="300" height="95" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="245" y="372" font-family="Arial" font-size="17" text-anchor="middle" fill="#991b1b" font-weight="bold">Public / third-party systems</text>
+  <text x="245" y="399" font-family="Arial" font-size="15" text-anchor="middle" fill="#991b1b">OUT OF SCOPE — DO NOT TEST</text>
+  <path d="M395 386 L465 386 L465 445" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 6"/>
+  <line x1="450" y1="430" x2="480" y2="460" stroke="#dc2626" stroke-width="5"/>
+  <line x1="480" y1="430" x2="450" y2="460" stroke="#dc2626" stroke-width="5"/>
+  <text x="500" y="525" font-family="Arial" font-size="15" text-anchor="middle" fill="#334155">No public binding • No router forwarding • No third-party targets</text>
+</svg>
